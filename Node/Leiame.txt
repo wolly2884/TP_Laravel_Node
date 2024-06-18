@@ -1,0 +1,24 @@
+
+Preparação
+==========
+
+ProjetoAPI
+==========
+
+1) Criar banco de dados de nome "spa"
+
+2) Abrir pasta raiz do projeto no GIT BASH e executar os seguintes comandos:
+
+composer install
+php artisan migrate --seed
+php artisan serve
+
+reactproj
+=========
+
+1) Abrir pasta raiz em um terminal ou prompt de comando
+
+2) No terminal, executar:
+npm install
+npm start
+
