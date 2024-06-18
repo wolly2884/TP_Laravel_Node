@@ -1,0 +1,173 @@
+.container {
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: blue;
+  background-image:url("../../assets/278890-reservado-para-time-de-redatores-estender-500-palavras-same-day-delivery-o-que-e-e-quais-sao-as-vantagens.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+.frame2 {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens sejam colocados em várias linhas */
+  padding: 10px;
+  width: 800px; /* Aumentei a largura para acomodar o formulário e os botões */
+  height: auto; /* Altura automática para ajustar o conteúdo */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  border: 2px solid orangered;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 8px;
+}
+
+.frame3 {
+  flex: 1; /* Ocupa todo o espaço disponível */
+  padding: 20px; /* Adiciona um espaçamento interno */
+  margin-bottom: 150px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Alinha os botões no topo */
+  align-items: flex-end; /* Alinha os botões à direita */
+  padding: 20px; /* Adiciona um espaçamento interno */
+}
+
+
+
+.frame3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame3 input {
+  display: flex;
+  width: 400px;
+  height: 35px;
+  margin: 20px;
+  border: 1px solid orangered;
+  border-radius: 8px;
+}
+
+.frame3 textarea {
+  display: flex;
+  width: 400px;
+  height: 180px;
+  margin: 20px;
+  border: 1px solid orangered;
+  border-radius: 8px;
+}
+
+.frame3 label {
+  display: flex;
+  padding-left: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-button {
+  width: 400px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px; 
+}
+
+.green {
+  background-color: #4CAF50;
+}
+
+.blue {
+  background-color: #007bff;
+}
+
+.yellow {
+  background-color: #ffc107;
+}
+
+.red {
+  background-color: #dc3545;
+}
+
+.custom-button:hover {
+  opacity: 0.8;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-NovoCad {
+  display: flex;
+  flex-direction: column;
+  width: 99.3%;
+  margin-top: -50px;
+  margin-left: -43px;
+  
+}
+
+.scrollable-container {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.frame2 {
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.custom-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.custom-button.green {
+  background-color: green;
+  color: white;
+}
+
+.custom-button.red {
+  background-color: red;
+  color: white;
+}
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+ .Rodape {
+  display: flex;
+  flex-direction: column;
+  min-height: 76vh;
+  margin-left: -40px;
+ }

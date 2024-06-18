@@ -1,0 +1,42 @@
+/* src/components/Loader.css */
+.loader {
+    border: 1px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 100%;
+    animation: spin 0.5s linear infinite;
+    margin-left: 50%;
+    margin-top: 100px;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .Rodape-loader {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5px;
+    margin-right: -10px;
+   }
+   
+   .topo-loader {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5px;
+    margin-right: -6px;
+   }
+
+   .main-loader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 95vh;
+    background-color: blue;
+    background-image:url("../../assets/278890-reservado-para-time-de-redatores-estender-500-palavras-same-day-delivery-o-que-e-e-quais-sao-as-vantagens.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
